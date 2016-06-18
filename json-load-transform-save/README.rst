@@ -28,6 +28,13 @@ Compression methods
 * ``gznaive``: Using ``gzip.open`` built-in function.
 * ``gzpiped``: Using ``gzip`` command via a pipe.
 
+System details
+--------------
+
+* OSX
+* Core i7 processor
+* SSD harddrive
+
 
 Results
 -------
