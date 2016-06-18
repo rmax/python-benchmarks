@@ -87,3 +87,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Ignore datasets archives.
+*.gz
+*.bz2
+*.xz
