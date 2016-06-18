@@ -21,6 +21,11 @@ Methods
 
 * FIXME: describe methods
 
+System details
+--------------
+
+* FIXME: add relevant system/hardware details
+
 
 Results
 -------
