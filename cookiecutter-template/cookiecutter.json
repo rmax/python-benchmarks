@@ -1,0 +1,5 @@
+{
+  "benchmark_name": "Benchmark Name",
+  "benchmark_slug": "{{cookiecutter.benchmark_name.lower().replace(' ', '-')}}",
+  "description": "Benchmark description"
+}

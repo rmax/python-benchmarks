@@ -1,0 +1,7 @@
+six
+pytest
+pytest-benchmark[histogram]
+# Avoid import errror with newer pygal.
+pygal<2.2
+
+# Benchmark requirements:
