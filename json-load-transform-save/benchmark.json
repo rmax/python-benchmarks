@@ -1,0 +1,755 @@
+{
+    "commit_info": {
+        "id": "unversioned", 
+        "dirty": false
+    }, 
+    "version": "3.0.0", 
+    "benchmarks": [
+        {
+            "stats": {
+                "q1": 3.4386157393455505, 
+                "q3": 3.4677021503448486, 
+                "iterations": 1, 
+                "min": 3.4381229877471924, 
+                "max": 3.47690486907959, 
+                "median": 3.440093994140625, 
+                "iqr": 0.029086410999298096, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 3.4381229877471924, 
+                "stddev": 0.02184399116330477, 
+                "hd15iqr": 3.47690486907959, 
+                "outliers": "1;0", 
+                "data": [
+                    3.47690486907959, 
+                    3.440093994140625, 
+                    3.4381229877471924
+                ], 
+                "rounds": 3, 
+                "mean": 3.4517072836558023
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec0]", 
+            "group": "~05Mb", 
+            "name": "gznaive_json", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 2.055692732334137, 
+                "q3": 2.0592289566993713, 
+                "iterations": 1, 
+                "min": 2.0553929805755615, 
+                "max": 2.060107946395874, 
+                "median": 2.0565919876098633, 
+                "iqr": 0.003536224365234375, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 2.0553929805755615, 
+                "stddev": 0.0024505267032465475, 
+                "hd15iqr": 2.060107946395874, 
+                "outliers": "1;0", 
+                "data": [
+                    2.0565919876098633, 
+                    2.060107946395874, 
+                    2.0553929805755615
+                ], 
+                "rounds": 3, 
+                "mean": 2.057364304860433
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec1]", 
+            "group": "~05Mb", 
+            "name": "gznaive_ujson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 2.4147186279296875, 
+                "q3": 2.4219666719436646, 
+                "iterations": 1, 
+                "min": 2.4145138263702393, 
+                "max": 2.424177885055542, 
+                "median": 2.4153330326080322, 
+                "iqr": 0.007248044013977051, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 2.4145138263702393, 
+                "stddev": 0.0053587396520580225, 
+                "hd15iqr": 2.424177885055542, 
+                "outliers": "1;0", 
+                "data": [
+                    2.424177885055542, 
+                    2.4145138263702393, 
+                    2.4153330326080322
+                ], 
+                "rounds": 3, 
+                "mean": 2.418008248011271
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec2]", 
+            "group": "~05Mb", 
+            "name": "gznaive_rapidjson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 1.8270990252494812, 
+                "q3": 1.8468202352523804, 
+                "iterations": 1, 
+                "min": 1.825551986694336, 
+                "max": 1.8518469333648682, 
+                "median": 1.831740140914917, 
+                "iqr": 0.01972121000289917, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 1.825551986694336, 
+                "stddev": 0.01374773057446963, 
+                "hd15iqr": 1.8518469333648682, 
+                "outliers": "1;0", 
+                "data": [
+                    1.8518469333648682, 
+                    1.825551986694336, 
+                    1.831740140914917
+                ], 
+                "rounds": 3, 
+                "mean": 1.8363796869913738
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec3]", 
+            "group": "~05Mb", 
+            "name": "gzpiped_json", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 0.683118462562561, 
+                "q3": 0.6899150013923645, 
+                "iterations": 1, 
+                "min": 0.6828279495239258, 
+                "max": 0.6918900012969971, 
+                "median": 0.6839900016784668, 
+                "iqr": 0.006796538829803467, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 0.6828279495239258, 
+                "stddev": 0.004930874525552852, 
+                "hd15iqr": 0.6918900012969971, 
+                "outliers": "1;0", 
+                "data": [
+                    0.6828279495239258, 
+                    0.6839900016784668, 
+                    0.6918900012969971
+                ], 
+                "rounds": 3, 
+                "mean": 0.6862359841664633
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec4]", 
+            "group": "~05Mb", 
+            "name": "gzpiped_ujson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 0.9588465690612793, 
+                "q3": 0.9671446084976196, 
+                "iterations": 1, 
+                "min": 0.9570250511169434, 
+                "max": 0.9680891036987305, 
+                "median": 0.9643111228942871, 
+                "iqr": 0.008298039436340332, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 0.9570250511169434, 
+                "stddev": 0.005623955316855117, 
+                "hd15iqr": 0.9680891036987305, 
+                "outliers": "1;0", 
+                "data": [
+                    0.9570250511169434, 
+                    0.9643111228942871, 
+                    0.9680891036987305
+                ], 
+                "rounds": 3, 
+                "mean": 0.9631417592366537
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec5]", 
+            "group": "~05Mb", 
+            "name": "gzpiped_rapidjson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 1.871252715587616, 
+                "q3": 1.8817902207374573, 
+                "iterations": 1, 
+                "min": 1.869724988937378, 
+                "max": 1.883774995803833, 
+                "median": 1.87583589553833, 
+                "iqr": 0.010537505149841309, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 1.869724988937378, 
+                "stddev": 0.007044799328330842, 
+                "hd15iqr": 1.883774995803833, 
+                "outliers": "1;0", 
+                "data": [
+                    1.869724988937378, 
+                    1.87583589553833, 
+                    1.883774995803833
+                ], 
+                "rounds": 3, 
+                "mean": 1.8764452934265137
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec0-func_spec6]", 
+            "group": "~05Mb", 
+            "name": "gzpiped_jq", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 6.902289032936096, 
+                "q3": 6.921861112117767, 
+                "iterations": 1, 
+                "min": 6.899899005889893, 
+                "max": 6.925995111465454, 
+                "median": 6.909459114074707, 
+                "iqr": 0.019572079181671143, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 6.899899005889893, 
+                "stddev": 0.013202535138014235, 
+                "hd15iqr": 6.925995111465454, 
+                "outliers": "1;0", 
+                "data": [
+                    6.909459114074707, 
+                    6.899899005889893, 
+                    6.925995111465454
+                ], 
+                "rounds": 3, 
+                "mean": 6.911784410476685
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec0]", 
+            "group": "~20Mb", 
+            "name": "gznaive_json", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 4.581752181053162, 
+                "q3": 4.603838920593262, 
+                "iterations": 1, 
+                "min": 4.577713966369629, 
+                "max": 4.607162952423096, 
+                "median": 4.59386682510376, 
+                "iqr": 0.022086739540100098, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 4.577713966369629, 
+                "stddev": 0.014747568311160437, 
+                "hd15iqr": 4.607162952423096, 
+                "outliers": "1;0", 
+                "data": [
+                    4.607162952423096, 
+                    4.59386682510376, 
+                    4.577713966369629
+                ], 
+                "rounds": 3, 
+                "mean": 4.592914581298828
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec1]", 
+            "group": "~20Mb", 
+            "name": "gznaive_ujson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 5.41442334651947, 
+                "q3": 5.465406060218811, 
+                "iterations": 1, 
+                "min": 5.4092631340026855, 
+                "max": 5.477240085601807, 
+                "median": 5.429903984069824, 
+                "iqr": 0.05098271369934082, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 5.4092631340026855, 
+                "stddev": 0.0348511528944871, 
+                "hd15iqr": 5.477240085601807, 
+                "outliers": "1;0", 
+                "data": [
+                    5.429903984069824, 
+                    5.477240085601807, 
+                    5.4092631340026855
+                ], 
+                "rounds": 3, 
+                "mean": 5.438802401224772
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec2]", 
+            "group": "~20Mb", 
+            "name": "gznaive_rapidjson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 3.4191152453422546, 
+                "q3": 3.428689122200012, 
+                "iterations": 1, 
+                "min": 3.416856050491333, 
+                "max": 3.4296212196350098, 
+                "median": 3.4258928298950195, 
+                "iqr": 0.009573876857757568, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 3.416856050491333, 
+                "stddev": 0.006563964951547129, 
+                "hd15iqr": 3.4296212196350098, 
+                "outliers": "1;0", 
+                "data": [
+                    3.4296212196350098, 
+                    3.4258928298950195, 
+                    3.416856050491333
+                ], 
+                "rounds": 3, 
+                "mean": 3.4241233666737876
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec3]", 
+            "group": "~20Mb", 
+            "name": "gzpiped_json", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 1.5086999535560608, 
+                "q3": 1.5388755202293396, 
+                "iterations": 1, 
+                "min": 1.501802921295166, 
+                "max": 1.542037010192871, 
+                "median": 1.5293910503387451, 
+                "iqr": 0.03017556667327881, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 1.501802921295166, 
+                "stddev": 0.02057428441115176, 
+                "hd15iqr": 1.542037010192871, 
+                "outliers": "1;0", 
+                "data": [
+                    1.542037010192871, 
+                    1.501802921295166, 
+                    1.5293910503387451
+                ], 
+                "rounds": 3, 
+                "mean": 1.524410327275594
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec4]", 
+            "group": "~20Mb", 
+            "name": "gzpiped_ujson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 2.2094608545303345, 
+                "q3": 2.231758236885071, 
+                "iterations": 1, 
+                "min": 2.202247142791748, 
+                "max": 2.2319769859313965, 
+                "median": 2.2311019897460938, 
+                "iqr": 0.022297382354736328, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 2.202247142791748, 
+                "stddev": 0.016917601209938665, 
+                "hd15iqr": 2.2319769859313965, 
+                "outliers": "1;0", 
+                "data": [
+                    2.2319769859313965, 
+                    2.202247142791748, 
+                    2.2311019897460938
+                ], 
+                "rounds": 3, 
+                "mean": 2.2217753728230796
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec5]", 
+            "group": "~20Mb", 
+            "name": "gzpiped_rapidjson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 3.8269563913345337, 
+                "q3": 3.8526753783226013, 
+                "iterations": 1, 
+                "min": 3.824822187423706, 
+                "max": 3.859114170074463, 
+                "median": 3.8333590030670166, 
+                "iqr": 0.025718986988067627, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 3.824822187423706, 
+                "stddev": 0.017851918305087595, 
+                "hd15iqr": 3.859114170074463, 
+                "outliers": "1;0", 
+                "data": [
+                    3.8333590030670166, 
+                    3.859114170074463, 
+                    3.824822187423706
+                ], 
+                "rounds": 3, 
+                "mean": 3.8390984535217285
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec1-func_spec6]", 
+            "group": "~20Mb", 
+            "name": "gzpiped_jq", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 24.71501648426056, 
+                "q3": 24.794416666030884, 
+                "iterations": 1, 
+                "min": 24.709269046783447, 
+                "max": 24.815135955810547, 
+                "median": 24.732258796691895, 
+                "iqr": 0.07940018177032471, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 24.709269046783447, 
+                "stddev": 0.055685058635423855, 
+                "hd15iqr": 24.815135955810547, 
+                "outliers": "1;0", 
+                "data": [
+                    24.732258796691895, 
+                    24.815135955810547, 
+                    24.709269046783447
+                ], 
+                "rounds": 3, 
+                "mean": 24.75222126642863
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec0]", 
+            "group": "~90Mb", 
+            "name": "gznaive_json", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 17.355421662330627, 
+                "q3": 17.57725590467453, 
+                "iterations": 1, 
+                "min": 17.349458932876587, 
+                "max": 17.645237922668457, 
+                "median": 17.37330985069275, 
+                "iqr": 0.2218342423439026, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 17.349458932876587, 
+                "stddev": 0.164316236472743, 
+                "hd15iqr": 17.645237922668457, 
+                "outliers": "1;0", 
+                "data": [
+                    17.645237922668457, 
+                    17.349458932876587, 
+                    17.37330985069275
+                ], 
+                "rounds": 3, 
+                "mean": 17.456002235412598
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec1]", 
+            "group": "~90Mb", 
+            "name": "gznaive_ujson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 20.660893976688385, 
+                "q3": 21.046679854393005, 
+                "iterations": 1, 
+                "min": 20.660037994384766, 
+                "max": 21.174419164657593, 
+                "median": 20.663461923599243, 
+                "iqr": 0.38578587770462036, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 20.660037994384766, 
+                "stddev": 0.2959946547412834, 
+                "hd15iqr": 21.174419164657593, 
+                "outliers": "1;0", 
+                "data": [
+                    20.660037994384766, 
+                    20.663461923599243, 
+                    21.174419164657593
+                ], 
+                "rounds": 3, 
+                "mean": 20.832639694213867
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec2]", 
+            "group": "~90Mb", 
+            "name": "gznaive_rapidjson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 11.86837089061737, 
+                "q3": 12.032996475696564, 
+                "iterations": 1, 
+                "min": 11.83821415901184, 
+                "max": 12.057714939117432, 
+                "median": 11.95884108543396, 
+                "iqr": 0.16462558507919312, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 11.83821415901184, 
+                "stddev": 0.10992989189117372, 
+                "hd15iqr": 12.057714939117432, 
+                "outliers": "1;0", 
+                "data": [
+                    12.057714939117432, 
+                    11.95884108543396, 
+                    11.83821415901184
+                ], 
+                "rounds": 3, 
+                "mean": 11.951590061187744
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec3]", 
+            "group": "~90Mb", 
+            "name": "gzpiped_json", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 5.6552823185920715, 
+                "q3": 5.717079341411591, 
+                "iterations": 1, 
+                "min": 5.653794050216675, 
+                "max": 5.7361900806427, 
+                "median": 5.659747123718262, 
+                "iqr": 0.06179702281951904, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 5.653794050216675, 
+                "stddev": 0.04594937536288053, 
+                "hd15iqr": 5.7361900806427, 
+                "outliers": "1;0", 
+                "data": [
+                    5.7361900806427, 
+                    5.659747123718262, 
+                    5.653794050216675
+                ], 
+                "rounds": 3, 
+                "mean": 5.683243751525879
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec4]", 
+            "group": "~90Mb", 
+            "name": "gzpiped_ujson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 8.931510746479034, 
+                "q3": 9.498986959457397, 
+                "iterations": 1, 
+                "min": 8.912714004516602, 
+                "max": 9.669348955154419, 
+                "median": 8.987900972366333, 
+                "iqr": 0.567476212978363, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 8.912714004516602, 
+                "stddev": 0.41683747470428656, 
+                "hd15iqr": 9.669348955154419, 
+                "outliers": "1;0", 
+                "data": [
+                    8.912714004516602, 
+                    9.669348955154419, 
+                    8.987900972366333
+                ], 
+                "rounds": 3, 
+                "mean": 9.189987977345785
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec5]", 
+            "group": "~90Mb", 
+            "name": "gzpiped_rapidjson", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }, 
+        {
+            "stats": {
+                "q1": 14.313403487205505, 
+                "q3": 14.340045690536499, 
+                "iterations": 1, 
+                "min": 14.306474924087524, 
+                "max": 14.341997861862183, 
+                "median": 14.334189176559448, 
+                "iqr": 0.026642203330993652, 
+                "iqr_outliers": 0, 
+                "stddev_outliers": 1, 
+                "ld15iqr": 14.306474924087524, 
+                "stddev": 0.018667862153876977, 
+                "hd15iqr": 14.341997861862183, 
+                "outliers": "1;0", 
+                "data": [
+                    14.334189176559448, 
+                    14.306474924087524, 
+                    14.341997861862183
+                ], 
+                "rounds": 3, 
+                "mean": 14.327553987503052
+            }, 
+            "fullname": "test_bench.py::test_bench[filename_spec2-func_spec6]", 
+            "group": "~90Mb", 
+            "name": "gzpiped_jq", 
+            "options": {
+                "disable_gc": false, 
+                "warmup": false, 
+                "timer": "time", 
+                "min_rounds": 5, 
+                "max_time": 1.0, 
+                "min_time": 5e-06
+            }
+        }
+    ], 
+    "machine_info": {
+        "node": "quicksilver", 
+        "machine": "x86_64", 
+        "python_version": "2.7.11", 
+        "release": "15.5.0", 
+        "python_compiler": "GCC 4.2.1 (Apple Inc. build 5577)", 
+        "python_implementation": "CPython", 
+        "processor": "i386", 
+        "system": "Darwin"
+    }, 
+    "datetime": "2016-06-18T16:51:56.309105"
+}

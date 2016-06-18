@@ -1,0 +1,10 @@
+six
+pytest
+pytest-benchmark[histogram]
+pygal<2.2
+
+ujson
+pyrapidjson  # py2 and py3
+# python-rapidjson  # py3-only
+
+# binary jq==1.5 (https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64))))
